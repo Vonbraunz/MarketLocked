@@ -1,0 +1,285 @@
+{
+	"66c868129d7cc5e69cb01595": {
+		"_id": "66c868129d7cc5e69cb01595",
+		"acceptPlayerMessage": "66c868129d7cc5e69cb01595 acceptPlayerMessage",
+		"canShowNotificationsInGame": true,
+		"changeQuestMessageText": "66c868129d7cc5e69cb01595 changeQuestMessageText",
+		"completePlayerMessage": "66c868129d7cc5e69cb01595 completePlayerMessage",
+		"conditions": {
+			"AvailableForFinish": [
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dc8",
+					"index": 1,
+					"parentId": "",
+					"plantTime": 30,
+					"target": [
+						"59e36c6f86f774176c10a2a7"
+					],
+					"value": 1,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaZB016Woods"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dc9",
+					"index": 2,
+					"parentId": "",
+					"plantTime": 30,
+					"target": [
+						"59e36c6f86f774176c10a2a7"
+					],
+					"value": 1,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaZB014Woods"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd0",
+					"index": 3,
+					"parentId": "",
+					"plantTime": 3,
+					"target": [
+						"5c06779c86f77426e00dd782"
+					],
+					"value": 6,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaScavTowerWoods"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd1",
+					"index": 4,
+					"parentId": "",
+					"plantTime": 10,
+					"target": [
+						"5c06779c86f77426e00dd782"
+					],
+					"value": 3,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaZB012Customs"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd2",
+					"index": 5,
+					"parentId": "",
+					"plantTime": 10,
+					"target": [
+						"5c06779c86f77426e00dd782"
+					],
+					"value": 3,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaZB011Customs"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd3",
+					"index": 6,
+					"parentId": "",
+					"plantTime": 15,
+					"target": [
+						"59e36c6f86f774176c10a2a7"
+					],
+					"value": 2,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaZB013Customs"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd4",
+					"index": 8,
+					"parentId": "",
+					"plantTime": 15,
+					"target": [
+						"5d0375ff86f774186372f685"
+					],
+					"value": 2,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaLabEntranceStreets"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd5",
+					"index": 9,
+					"parentId": "",
+					"plantTime": 5,
+					"target": [
+						"59e36c6f86f774176c10a2a7"
+					],
+					"value": 3,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaTopTowerInterchange"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd6",
+					"index": 10,
+					"parentId": "",
+					"plantTime": 15,
+					"target": [
+						"5c052f6886f7746b1e3db148"
+					],
+					"value": 1,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaTopTowerInterchange"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd7",
+					"index": 11,
+					"parentId": "",
+					"plantTime": 5,
+					"target": [
+						"5c052f6886f7746b1e3db148"
+					],
+					"value": 1,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaCellarsFactoryDay"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd8",
+					"index": 12,
+					"parentId": "",
+					"plantTime": 2,
+					"target": [
+						"5c06779c86f77426e00dd782"
+					],
+					"value": 5,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaBottomD2Reserve"
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8745e6deff0bbfde44dd9",
+					"index": 13,
+					"parentId": "",
+					"plantTime": 5,
+					"target": [
+						"5bc9b720d4351e450201234b"
+					],
+					"value": 1,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaBottomD2Reserve"
+				}
+			],
+			"AvailableForStart": [],
+			"Fail": []
+		},
+		"declinePlayerMessage": "66c868129d7cc5e69cb01595 declinePlayerMessage",
+		"description": "66c868129d7cc5e69cb01595 description",
+		"failMessageText": "66c868129d7cc5e69cb01595 failMessageText",
+		"image": "/files/quest/icon/5ac4d8f186f774422237860d.png",
+		"instantComplete": false,
+		"isKey": false,
+		"location": "any",
+		"name": "66c868129d7cc5e69cb01595 name",
+		"note": "66c868129d7cc5e69cb01595 note",
+		"restartable": false,
+		"rewards": {
+			"Fail": [],
+			"Started": [],
+			"Success": [
+				{
+					"id": "66c88f4a7c144f91e1e585e6",
+					"index": 0,
+					"type": "Experience",
+					"value": "12700"
+				},
+				{
+					"id": "66c88f4a7c144f91e1e585e7",
+					"index": 1,
+					"target": "579dc571d53a0658a154fbec",
+					"type": "TraderStanding",
+					"value": "0.25"
+				},
+				{
+					"findInRaid": false,
+					"id": "66c88f4a7c144f91e1e585e8",
+					"index": 2,
+					"items": [
+						{
+							"_id": "66c89018863bcf136fe1d700",
+							"_tpl": "5449016a4bdc2d6f028b456f",
+							"upd": {
+								"StackObjectsCount": 250000
+							}
+						}
+					],
+					"target": "66c89018863bcf136fe1d700",
+					"type": "Item",
+					"value": "250000"
+				},
+				{
+					"id": "66c88f4a7c144f91e1e585e9",
+					"index": 3,
+					"target": "Perception",
+					"type": "Skill",
+					"value": "500"
+				},
+				{
+					"id": "66c88f4a7c144f91e1e585f0",
+					"index": 4,
+					"target": "Attention",
+					"type": "Skill",
+					"value": "500"
+				},
+				{
+					"id": "66c88f4a7c144f91e1e585f1",
+					"index": 5,
+					"target": "Charisma",
+					"type": "Skill",
+					"value": "500"
+				},
+				{
+					"findInRaid": true,
+					"id": "65846cfd4f381a0ad975a85d",
+					"index": 6,
+					"items": [
+						{
+							"_id": "66c8915218e07620c5b322c4",
+							"_tpl": "655c673673a43e23e857aebd",
+							"upd": {
+								"StackObjectsCount": 1
+							}
+						}
+					],
+					"target": "66c8915218e07620c5b322c4",
+					"type": "Item",
+					"value": "1"
+				}
+			]
+		},
+		"secretQuest": false,
+		"side": "Pmc",
+		"startedMessageText": "66c868129d7cc5e69cb01595 startedMessageText",
+		"successMessageText": "66c868129d7cc5e69cb01595 successMessageText",
+		"traderId": "579dc571d53a0658a154fbec",
+		"type": "Completion"
+	}
+}

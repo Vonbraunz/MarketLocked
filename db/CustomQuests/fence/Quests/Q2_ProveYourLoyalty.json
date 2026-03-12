@@ -1,0 +1,249 @@
+{
+	"66c892691764e6cbeb1534d7": {
+		"_id": "66c892691764e6cbeb1534d7",
+		"acceptPlayerMessage": "66c892691764e6cbeb1534d7 acceptPlayerMessage",
+		"canShowNotificationsInGame": true,
+		"changeQuestMessageText": "66c892691764e6cbeb1534d7 changeQuestMessageText",
+		"completePlayerMessage": "66c892691764e6cbeb1534d7 completePlayerMessage",
+		"conditions": {
+			"AvailableForFinish": [
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"conditionType": "ExitStatus",
+								"dynamicLocale": false,
+								"id": "66c897c56e93b8b766bb6915",
+								"status": [
+									"Survived"
+								]
+							},
+							{
+								"conditionType": "Location",
+								"dynamicLocale": false,
+								"id": "66c897c56e93b8b766bb6916",
+								"target": [
+									"Shoreline",
+									"factory4_night",
+									"bigmap",
+									"Sandbox",
+									"Lighthouse",
+									"RezervBase",
+									"Woods",
+									"factory4_day",
+									"TarkovStreets",
+									"laboratory",
+									"Interchange",
+									"Sandbox_high"
+								]
+							}
+						],
+						"id": "66c897c56e93b8b766bb6917"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c897c56e93b8b766bb6918",
+					"index": 0,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Exploration",
+					"value": 3,
+					"visibilityConditions": []
+				},
+				{
+					"compareMethod": ">=",
+					"conditionType": "TraderStanding",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c897c56e93b8b766bb6919",
+					"index": 1,
+					"parentId": "",
+					"target": "579dc571d53a0658a154fbec",
+					"value": 3,
+					"visibilityConditions": []
+				}
+			],
+			"AvailableForStart": [
+				{
+					"availableAfter": 0,
+					"conditionType": "Quest",
+					"dispersion": 0,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8a2155f4b2eeb4b35b12a",
+					"index": 0,
+					"parentId": "",
+					"status": [
+						4
+					],
+					"target": "66c868129d7cc5e69cb01595",
+					"visibilityConditions": []
+				}
+			],
+			"Fail": [
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"bodyPart": [],
+								"compareMethod": ">=",
+								"conditionType": "Kills",
+								"daytime": {
+									"from": 0,
+									"to": 0
+								},
+								"distance": {
+									"compareMethod": ">=",
+									"value": 0
+								},
+								"dynamicLocale": false,
+								"enemyEquipmentExclusive": [],
+								"enemyEquipmentInclusive": [],
+								"enemyHealthEffects": [],
+								"id": "66c893bdb1dbf30d53fc58e8",
+								"resetOnSessionEnd": false,
+								"savageRole": [],
+								"target": "Savage",
+								"value": 1,
+								"weapon": [],
+								"weaponCaliber": [],
+								"weaponModsExclusive": [],
+								"weaponModsInclusive": []
+							}
+						],
+						"id": "66c893bdb1dbf30d53fc58e9"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c893bdb1dbf30d53fc58f0",
+					"index": 0,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Elimination",
+					"value": 1,
+					"visibilityConditions": []
+				},
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"conditionType": "ExitStatus",
+								"dynamicLocale": false,
+								"id": "66c8977d5b79e8c7c3f16001",
+								"status": [
+									"Killed",
+									"Left",
+									"MissingInAction"
+								]
+							},
+							{
+								"conditionType": "Location",
+								"dynamicLocale": false,
+								"id": "66c8977d5b79e8c7c3f16002",
+								"target": [
+									"Shoreline",
+									"factory4_night",
+									"bigmap",
+									"Sandbox",
+									"Lighthouse",
+									"RezervBase",
+									"Woods",
+									"factory4_day",
+									"TarkovStreets",
+									"laboratory",
+									"Interchange",
+									"Sandbox_high"
+								]
+							}
+						],
+						"id": "66c8977d5b79e8c7c3f16003"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8977d5b79e8c7c3f16004",
+					"index": 0,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Exploration",
+					"value": 1,
+					"visibilityConditions": []
+				}
+			]
+		},
+		"declinePlayerMessage": "66c892691764e6cbeb1534d7 declinePlayerMessage",
+		"description": "66c892691764e6cbeb1534d7 description",
+		"failMessageText": "66c892691764e6cbeb1534d7 failMessageText",
+		"image": "/files/quest/icon/5967505886f774590730dadc.png",
+		"instantComplete": false,
+		"isKey": false,
+		"location": "any",
+		"name": "66c892691764e6cbeb1534d7 name",
+		"note": "66c892691764e6cbeb1534d7 note",
+		"restartable": true,
+		"rewards": {
+			"Fail": [],
+			"Started": [],
+			"Success": [
+				{
+					"id": "66c93d6f182fb34f32897d40",
+					"index": 0,
+					"type": "Experience",
+					"value": "21000"
+				},
+				{
+					"id": "66c93d6f182fb34f32897d41",
+					"index": 1,
+					"target": "579dc571d53a0658a154fbec",
+					"type": "TraderStanding",
+					"value": "1"
+				},
+				{
+					"id": "66c93d6f182fb34f32897d42",
+					"index": 2,
+					"target": "StressResistance",
+					"type": "Skill",
+					"value": "300"
+				},
+				{
+					"id": "66c93d6f182fb34f32897d43",
+					"index": 3,
+					"target": "Immunity",
+					"type": "Skill",
+					"value": "500"
+				},
+				{
+					"findInRaid": true,
+					"id": "66c93db974e32e01093da311",
+					"index": 4,
+					"items": [
+						{
+							"_id": "66c93d6f182fb34f32897d44",
+							"_tpl": "5d03794386f77420415576f5",
+							"upd": {
+								"StackObjectsCount": 1
+							}
+						}
+					],
+					"target": "66c93d6f182fb34f32897d44",
+					"type": "Item",
+					"value": "1"
+				}
+			]
+		},
+		"secretQuest": false,
+		"side": "Pmc",
+		"startedMessageText": "66c892691764e6cbeb1534d7 startedMessageText",
+		"successMessageText": "66c892691764e6cbeb1534d7 successMessageText",
+		"traderId": "579dc571d53a0658a154fbec",
+		"type": "Completion"
+	}
+}

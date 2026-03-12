@@ -1,0 +1,184 @@
+{
+	"66c8a1acd14dd370799e8bb8": {
+		"_id": "66c8a1acd14dd370799e8bb8",
+		"acceptPlayerMessage": "66c8a1acd14dd370799e8bb8 acceptPlayerMessage",
+		"canShowNotificationsInGame": true,
+		"changeQuestMessageText": "66c8a1acd14dd370799e8bb8 changeQuestMessageText",
+		"completePlayerMessage": "66c8a1acd14dd370799e8bb8 completePlayerMessage",
+		"conditions": {
+			"AvailableForFinish": [
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"bodyPart": [],
+								"compareMethod": ">=",
+								"conditionType": "Kills",
+								"daytime": {
+									"from": 0,
+									"to": 0
+								},
+								"distance": {
+									"compareMethod": ">=",
+									"value": 5555
+								},
+								"dynamicLocale": false,
+								"enemyEquipmentExclusive": [],
+								"enemyEquipmentInclusive": [],
+								"enemyHealthEffects": [],
+								"id": "66c8a3f31a15ac45d5b64669",
+								"resetOnSessionEnd": true,
+								"savageRole": [],
+								"target": "AnyPmc",
+								"value": 1,
+								"weapon": [],
+								"weaponCaliber": [],
+								"weaponModsExclusive": [],
+								"weaponModsInclusive": []
+							}
+						],
+						"id": "66c8a41603f2c54506d44906"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8a4207939bb0b03fbd53a",
+					"index": 0,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Elimination",
+					"value": 300,
+					"visibilityConditions": []
+				},
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"conditionType": "ExitStatus",
+								"dynamicLocale": false,
+								"id": "5c93795386f77411fc1e1822",
+								"status": [
+									"Survived",
+									"Runner"
+								]
+							},
+							{
+								"conditionType": "Location",
+								"dynamicLocale": false,
+								"id": "5c93795d86f7740a111bd782",
+								"target": [
+									"any"
+								]
+							}
+						],
+						"id": "5c93794086f7740a13567866"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8a4207939bb0b03fbd53b",
+					"index": 4,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Discover",
+					"value": 1,
+					"visibilityConditions": [
+						{
+							"conditionType": "CompleteCondition",
+							"id": "66c8a5fce13e758e4222c069",
+							"target": "66c8a4207939bb0b03fbd53a"
+						}
+					]
+				}
+			],
+			"AvailableForStart": [
+				{
+					"availableAfter": 0,
+					"conditionType": "Quest",
+					"dispersion": 0,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8a22bc46a8e0ea01f764e",
+					"index": 0,
+					"parentId": "",
+					"status": [
+						4
+					],
+					"target": "66c892691764e6cbeb1534d7",
+					"visibilityConditions": []
+				}
+			],
+			"Fail": []
+		},
+		"declinePlayerMessage": "66c8a1acd14dd370799e8bb8 declinePlayerMessage",
+		"description": "66c8a1acd14dd370799e8bb8 description",
+		"failMessageText": "66c8a1acd14dd370799e8bb8 failMessageText",
+		"image": "/files/quest/icon/6137505384aedf00fa17b651.png",
+		"instantComplete": false,
+		"isKey": false,
+		"location": "any",
+		"name": "66c8a1acd14dd370799e8bb8 name",
+		"note": "66c8a1acd14dd370799e8bb8 note",
+		"restartable": false,
+		"rewards": {
+			"Fail": [],
+			"Started": [],
+			"Success": [
+				{
+					"id": "66c93dec77049b7766f63df0",
+					"index": 0,
+					"type": "Experience",
+					"value": "34600"
+				},
+				{
+					"id": "66c93dec77049b7766f63df1",
+					"index": 1,
+					"target": "HideoutManagement",
+					"type": "Skill",
+					"value": "500"
+				},
+				{
+					"id": "66c93dec77049b7766f63df2",
+					"index": 2,
+					"target": "MagDrills",
+					"type": "Skill",
+					"value": "1000"
+				},
+				{
+					"id": "66c93dec77049b7766f63df3",
+					"index": 3,
+					"target": "Attention",
+					"type": "Skill",
+					"value": "500"
+				},
+				{
+					"findInRaid": true,
+					"id": "66c93dec77049b7766f63df4",
+					"index": 4,
+					"items": [
+						{
+							"_id": "66c93e9b765371fc24bd987d",
+							"_tpl": "5df8a4d786f77412672a1e3b",
+							"upd": {
+								"StackObjectsCount": 2
+							}
+						}
+					],
+					"target": "66c93e9b765371fc24bd987d",
+					"type": "Item",
+					"value": "2"
+				}
+			]
+		},
+		"secretQuest": false,
+		"side": "Pmc",
+		"startedMessageText": "66c8a1acd14dd370799e8bb8 startedMessageText",
+		"successMessageText": "66c8a1acd14dd370799e8bb8 successMessageText",
+		"traderId": "579dc571d53a0658a154fbec",
+		"type": "Completion"
+	}
+}

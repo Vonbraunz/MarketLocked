@@ -1,0 +1,309 @@
+{
+	"66c8b497a756f800b530a071": {
+		"_id": "66c8b497a756f800b530a071",
+		"acceptPlayerMessage": "66c8b497a756f800b530a071 acceptPlayerMessage",
+		"canShowNotificationsInGame": true,
+		"changeQuestMessageText": "66c8b497a756f800b530a071 changeQuestMessageText",
+		"completePlayerMessage": "66c8b497a756f800b530a071 completePlayerMessage",
+		"conditions": {
+			"AvailableForFinish": [
+				{
+					"conditionType": "HandoverItem",
+					"dogtagLevel": 0,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b8148a5ca21e986773c4",
+					"index": 0,
+					"maxDurability": 100,
+					"minDurability": 0,
+					"onlyFoundInRaid": false,
+					"parentId": "",
+					"target": [
+						"5449016a4bdc2d6f028b456f"
+					],
+					"value": 10000000,
+					"visibilityConditions": []
+				},
+				{
+					"conditionType": "LeaveItemAtLocation",
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b8148a5ca21e986773c5",
+					"index": 1,
+					"parentId": "",
+					"plantTime": 3,
+					"target": [
+						"59faff1d86f7746c51718c9c"
+					],
+					"value": 3,
+					"visibilityConditions": [],
+					"zoneId": "fenceFleaBuyStashMines"
+				},
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"bodyPart": [],
+								"compareMethod": ">=",
+								"conditionType": "Kills",
+								"daytime": {
+									"from": 0,
+									"to": 0
+								},
+								"distance": {
+									"compareMethod": ">=",
+									"value": 5555
+								},
+								"dynamicLocale": false,
+								"enemyEquipmentExclusive": [],
+								"enemyEquipmentInclusive": [],
+								"enemyHealthEffects": [],
+								"id": "66c8b7fbf7d1af4763d120fc",
+								"resetOnSessionEnd": false,
+								"savageRole": [],
+								"target": "AnyPmc",
+								"value": 1,
+								"weapon": [],
+								"weaponCaliber": [],
+								"weaponModsExclusive": [],
+								"weaponModsInclusive": []
+							}
+						],
+						"id": "66c8b7f87c34823cc7ccd0a9"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b8148a5ca21e986773c6",
+					"index": 2,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Elimination",
+					"value": 1,
+					"visibilityConditions": []
+				},
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"bodyPart": [],
+								"compareMethod": ">=",
+								"conditionType": "Kills",
+								"daytime": {
+									"from": 0,
+									"to": 0
+								},
+								"distance": {
+									"compareMethod": ">=",
+									"value": 5555
+								},
+								"dynamicLocale": false,
+								"enemyEquipmentExclusive": [],
+								"enemyEquipmentInclusive": [],
+								"enemyHealthEffects": [],
+								"id": "66c8b8c33c8284bec4d1d7c9",
+								"resetOnSessionEnd": false,
+								"savageRole": [],
+								"target": "AnyPmc",
+								"value": 1,
+								"weapon": [],
+								"weaponCaliber": [],
+								"weaponModsExclusive": [],
+								"weaponModsInclusive": []
+							}
+						],
+						"id": "66c8b8c1b41c5ea9672284d8"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b8148a5ca21e986773c7",
+					"index": 3,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Elimination",
+					"value": 1000,
+					"visibilityConditions": []
+				},
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"bodyPart": [],
+								"compareMethod": ">=",
+								"conditionType": "Kills",
+								"daytime": {
+									"from": 0,
+									"to": 0
+								},
+								"distance": {
+									"compareMethod": ">=",
+									"value": 5555
+								},
+								"dynamicLocale": false,
+								"enemyEquipmentExclusive": [],
+								"enemyEquipmentInclusive": [],
+								"enemyHealthEffects": [],
+								"id": "66c8b8f1963f24a6d003bf45",
+								"resetOnSessionEnd": false,
+								"savageRole": [],
+								"target": "AnyPmc",
+								"value": 1,
+								"weapon": [],
+								"weaponCaliber": [],
+								"weaponModsExclusive": [],
+								"weaponModsInclusive": []
+							}
+						],
+						"id": "66c8b8eedccae0db5998eb26"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b8148a5ca21e986773c8",
+					"index": 4,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Exploration",
+					"value": 500,
+					"visibilityConditions": []
+				},
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"bodyPart": [],
+								"compareMethod": ">=",
+								"conditionType": "Kills",
+								"daytime": {
+									"from": 0,
+									"to": 0
+								},
+								"distance": {
+									"compareMethod": ">=",
+									"value": 5555
+								},
+								"dynamicLocale": false,
+								"enemyEquipmentExclusive": [],
+								"enemyEquipmentInclusive": [],
+								"enemyHealthEffects": [],
+								"id": "66c8b96523b63fd40f08cbde",
+								"resetOnSessionEnd": false,
+								"savageRole": [],
+								"target": "AnyPmc",
+								"value": 1,
+								"weapon": [],
+								"weaponCaliber": [],
+								"weaponModsExclusive": [],
+								"weaponModsInclusive": []
+							}
+						],
+						"id": "66c8b9627124eb33d5c8d8b6"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b8148a5ca21e986773c9",
+					"index": 5,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Completion",
+					"value": 10,
+					"visibilityConditions": []
+				},
+				{
+					"completeInSeconds": 0,
+					"conditionType": "CounterCreator",
+					"counter": {
+						"conditions": [
+							{
+								"bodyPart": [],
+								"compareMethod": ">=",
+								"conditionType": "Kills",
+								"daytime": {
+									"from": 0,
+									"to": 0
+								},
+								"distance": {
+									"compareMethod": ">=",
+									"value": 5555
+								},
+								"dynamicLocale": false,
+								"enemyEquipmentExclusive": [],
+								"enemyEquipmentInclusive": [],
+								"enemyHealthEffects": [],
+								"id": "66c8b9759e13044cb8856b09",
+								"resetOnSessionEnd": false,
+								"savageRole": [],
+								"target": "AnyPmc",
+								"value": 1,
+								"weapon": [],
+								"weaponCaliber": [],
+								"weaponModsExclusive": [],
+								"weaponModsInclusive": []
+							}
+						],
+						"id": "66c8b973b8a3584e4ebe4e37"
+					},
+					"doNotResetIfCounterCompleted": false,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b8148a5ca21e986773d0",
+					"index": 6,
+					"oneSessionOnly": false,
+					"parentId": "",
+					"type": "Skill",
+					"value": 25,
+					"visibilityConditions": []
+				}
+			],
+			"AvailableForStart": [
+				{
+					"availableAfter": 0,
+					"conditionType": "Quest",
+					"dispersion": 0,
+					"dynamicLocale": false,
+					"globalQuestCounterId": "",
+					"id": "66c8b4f85719665107444e79",
+					"index": 0,
+					"parentId": "",
+					"status": [
+						4
+					],
+					"target": "66c8aa57f672c4d62e456332",
+					"visibilityConditions": []
+				}
+			],
+			"Fail": []
+		},
+		"declinePlayerMessage": "66c8b497a756f800b530a071 declinePlayerMessage",
+		"description": "66c8b497a756f800b530a071 description",
+		"failMessageText": "66c8b497a756f800b530a071 failMessageText",
+		"image": "/files/quest/icon/594d241f86f7740d8246218d.png",
+		"instantComplete": false,
+		"isKey": false,
+		"location": "any",
+		"name": "66c8b497a756f800b530a071 name",
+		"note": "66c8b497a756f800b530a071 note",
+		"restartable": false,
+		"rewards": {
+			"Fail": [],
+			"Started": [],
+			"Success": []
+		},
+		"secretQuest": false,
+		"side": "Pmc",
+		"startedMessageText": "66c8b497a756f800b530a071 startedMessageText",
+		"successMessageText": "66c8b497a756f800b530a071 successMessageText",
+		"traderId": "579dc571d53a0658a154fbec",
+		"type": "Completion"
+	}
+}
