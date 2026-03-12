@@ -1,6 +1,6 @@
 # MarketLocked
 
-A server mod for **SPT 4.0.13** that locks the flea market behind a 5-quest chain obtained from **Fence**. Players must earn access to the flea market through gameplay rather than having it available from the start.
+A server mod for **SPT 4.0.13** that locks the flea market behind a 5-quest chain obtained from **Fence**. Players must earn access to the flea market through gameplay rather than having it available from the start. Quests based off crustyselenium_ Flea Market Quests Mod for 3.11
 
 ---
 
