@@ -5,7 +5,7 @@ namespace MarketLocked;
 
 public record ModMetadata : AbstractModMetadata
 {
-    public override string ModGuid { get; init; } = "com.DrBraun.marketlocked";
+    public override string ModGuid { get; init; } = "com.VonBraunZ.marketlocked";
     public override string Name { get; init; } = "MarketLocked";
     public override string Author { get; init; } = "DrBraun";
     public override List<string>? Contributors { get; init; }
